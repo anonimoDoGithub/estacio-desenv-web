@@ -12,18 +12,36 @@ body{
 }
 
 .bar__header{
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
     background: whitesmoke;
+    width: 100%;
+}
 
-    padding: 20px;
+.black__bar{
+    display: flex;
+    align-items: center;
+    
+    background: black;
+    height: 40px;
+}
+.black__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.black__menu li a {
+    font-size: 18px;
+    font-weight: 500;
+    font-style:inherit;
+    color: rgb(255, 255, 255);
+    margin: 15px;
 }
 
 .nav__top{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    padding: 20px;
 }
 
 .nav__top a img {
