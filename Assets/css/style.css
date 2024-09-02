@@ -8,5 +8,38 @@
 }
 
 body{
-    background: palegreen;
+    background: rgb(86, 209, 240);
+}
+
+.bar__header{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    background: whitesmoke;
+
+    padding: 20px;
+}
+
+.nav__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav__top a img {
+    width: 200px;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav__menu li a {
+    font-size: 20px;
+    font-weight: 500;
+    font-style:inherit;
+    color: black;
+    
+    padding: 30px;
 }
