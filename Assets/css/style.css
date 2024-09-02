@@ -40,6 +40,10 @@ body{
     font-weight: 500;
     font-style:inherit;
     color: black;
-    
-    padding: 30px;
+
+    margin: 30px;
+}
+
+.nav__menu a:hover{
+    color: blue;
 }
